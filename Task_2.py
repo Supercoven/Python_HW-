@@ -21,10 +21,9 @@ rev_list = list(reversed(new_list))
 firstN = (rev_list[4])
 pre_firstN = (rev_list[3])
 
-# я в итоге не понял зачем реверснул список, но зато научился это делать (на самом деле так будет более 
-# универсальный вариант, если, например, длину списка будет задавать пользователь)
+# я в итоге не понял зачем реверснул список, но зато научился это делать
 
-MultiFL = (lastN * firstN) # произведение первого и последнего числа
-MultiPFPL = (pre_firstN * pre_lastN) # произведение второго и предпоследнего числа
+MultiFL = (lastN * firstN) 
+MultiPFPL = (pre_firstN * pre_lastN) 
 
 print(MultiFL, MultiPFPL)
